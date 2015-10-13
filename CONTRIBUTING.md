@@ -88,7 +88,7 @@ If you are the current maintainer of this gem:
 0. If grammar submodules have not been updated recently, update them: `git submodule update --remote && git commit -a`
 0. Ensure that samples are updated: `bundle exec rake samples`
 0. Ensure that tests are green: `bundle exec rake test`
-0. Bump gem version in `lib/linguist/version.rb`, [like this](https://github.com/github/linguist/commit/8d2ea90a5ba3b2fe6e1508b7155aa4632eea2985).
+0. Bump gem version in `lib/linguist/version.rb`, [like this](https://github.com/githu/commit/8d2ea90a5ba3b2fe6e1508b7155aa4632eea2985).
 0. Make a PR to github/linguist, [like this](https://github.com/github/linguist/pull/1238).
 0. Build a local gem: `bundle exec rake build_gem`
 0. Test the gem:
